@@ -67,7 +67,6 @@ int main(int argc, char* argv[]){
 		else{
 			play = false;
 			printf("Alright, play again soon!\n");
-			return 0;
 		}
 
 	}
