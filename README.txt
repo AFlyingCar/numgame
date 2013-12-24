@@ -7,5 +7,3 @@
 NumGame is property of Tyler Robbins.
 
 Do not re-distribute this program without the explicit permission of the creator and owner.
-
-const char* nuclear = "\u2622"
