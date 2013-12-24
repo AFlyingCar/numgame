@@ -35,11 +35,11 @@ int main(int argc, char* argv[]){
 				scanf("%d", &choice);
 
 				if(choice > mystery){
-					printf("\nSorry, %d was too high.", choice);
+					printf("\nSorry, %d was too high.", choice); //return if guess is too high
 				}
 
 				else if(choice < mystery){
-					printf("Sorry, but %d was too low.", choice);
+					printf("Sorry, but %d was too low.", choice); //return if guess is too low
 				}
 
 				guess -= 1;
@@ -47,11 +47,11 @@ int main(int argc, char* argv[]){
 
 			if(choice == mystery){
 
-				printf("Congratulations! You guessed the number correctly in %d guesses!",10-guess);
+				printf("Congratulations! You guessed the number correctly in %d guesses!",10-guess); //return if player guesses the number in less than 10 guesses
 				win++;
 			}
 			else{
-				printf("Too bad. The number was %d.", mystery);
+				printf("Too bad. The number was %d.", mystery); //return if player loses
 			}
 		}
 
