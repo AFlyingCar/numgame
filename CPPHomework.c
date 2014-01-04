@@ -31,7 +31,7 @@ int main(int argc, char* argv[]){
 			while(choice != mystery && guess != 0){
 				printf("You have %d guesses left.", guess);
 
-				printf("\n\nPlease enter your guess: ");
+				printf("\n\nPlease enter your guess. (Integers only): ");
 				scanf("%d", &choice);
 
 				if(choice > mystery){
