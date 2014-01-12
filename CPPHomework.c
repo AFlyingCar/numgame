@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-//fooo
+
 int main(int argc, char* argv[]){
 	int mystery;
 	int choice;
